@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Site</title>
+
+    <!-- Step 9: Custom Font (add link here later) -->
+
+    <!-- Tailwind Config (add before CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- STEP 1: NAVBAR -->
+    <nav
+      class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <div
+          class="font-bold text-xl tracking-tight dark:text-white cursor-pointer"
+        >
+          ⚡️ Brand<span class="text-indigo-600">Flow</span>
+        </div>
+
+        <div
+          class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600 dark:text-gray-300"
+        >
+          <a href="#" class="hover:text-indigo-600 transition">Features</a>
+          <a href="#" class="hover:text-indigo-600 transition">Pricing</a>
+          <a href="#" class="hover:text-indigo-600 transition">About</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <button
+            onclick="toggleDark()"
+            class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:ring-2 ring-indigo-500 transition"
+          >
+            🌙
+          </button>
+          <a
+            href="#"
+            class="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition shadow-lg shadow-indigo-200 dark:shadow-none"
+          >
+            Get Started
+          </a>
+          <button class="md:hidden text-gray-600 dark:text-gray-300">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- STEP 3: SOCIAL PROOF -->
+
+    <!-- STEP 4: FEATURES -->
+
+    <!-- STEP 5: BENTO HIGHLIGHT -->
+
+    <!-- STEP 6: PRICING -->
+
+    <!-- STEP 7: TESTIMONIALS -->
+
+    <!-- STEP 8: CTA BANNER -->
+
+    <!-- STEP 9: FOOTER -->
+  </body>
+</html>
